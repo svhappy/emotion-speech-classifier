@@ -70,9 +70,9 @@ Supported emotion classes:
 | ---------- | --------------------- |
 | Input      | Shape: (130, 40)      |
 | LSTM 1     | 128 units             |
-| Dropout    | 0.4                   |
+| Dropout    | 0.3                   |
 | LSTM 2     | 64 units              |
-| Dropout    | 0.4                   |
+| Dropout    | 0.3                   |
 | Dense (FC) | 64 → 8 output classes |
 
 
@@ -82,7 +82,7 @@ Early training runs showed clear signs of **overfitting**. To address this, the 
 
 - **Dropout Regularization**:
 - Used  `Dropout` in dense layers
-- Tuned dropout rate between **0.4**
+- Tuned dropout rate between **0.3**
 
   
 ### Training Parameters:
@@ -179,6 +179,9 @@ Follow these instructions to reproduce the training and evaluation of the voice 
 ## Demo Video
 
 Demo video `demo.mp4` includes:
+
+ [Click here to watch the demo](demo.mp4)
+
 
 - Streamlit app launch
 - Uploading a `.wav` file
