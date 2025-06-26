@@ -114,11 +114,11 @@ The model meets the accuracy criteria as per the project guidelines.
 
 ### Training vs Validation Accuracy
 
-![Training Accuracy](train_val_accuracy graph.png)
+![Training Accuracy](train_val_accuracy_graph.png)
 
 ### Training vs Validation Loss
 
-![Training Loss](train_val_loss graph.png)
+![Training Loss](train_val_loss_graph.png)
 
 
 
